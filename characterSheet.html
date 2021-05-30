@@ -8,176 +8,246 @@
     
     <!--  Descriptions personnage -->
     
-    <input type="text" name="attr_Name" class="iLine Vert" style="top:16px;left:240px; width:140px;" title="@{Name}"/>
-    <input type="text" name="attr_Alter" class="iLine Vert" style="top:16px;left:430px; width:110px;" title="@{Alter}"/>
-
-    
-    <input type="text" name="attr_Alias" class="iLine Vert" style="top:36px;left:250px; width:110px;" title="@{Alias}"/>
-    <input type="text" name="attr_Description" class="iLine Vert" style="top:16px;left:750px; width:510px;" title="@{Description}"/>
+    <input type="text" name="attr_Name" class="iLine Cyan" style="top:16px;left:240px; width:140px;" title="@{Name}"/>
+    <input type="text" name="attr_Alter" class="iLine Cyan" style="top:16px;left:450px; width:110px;" title="@{Alter}"/>
+    <input type="text" name="attr_Alias" class="iLine Cyan" style="top:12px;left:620px; width:110px;" title="@{Alias}"/>
+    <input type="text" name="attr_Agence" class="iLine Cyan" style="top:12px;left:820px; width:110px;" title="@{Agence}"/>
+    <textarea type="text" name="attr_Description" class="iLine Cyan" style="top:55px;left:310px; width:600px;background:white;height:40px;font-size:15px" title="@{Description}"></textarea>
     
     <!--  Caractéristiques personnage -->
     
-    <input type="text" name="attr_Combat" class="iPetit Vert iNombre iNoBorder" style="top:142px;left:175px; " title="@{Combat}"/>
-    <input type="text" name="attr_Infiltration" class="iPetit Vert iNombre  iNoBorder" style="top:142px;left:360px; " title="@{Infiltration}"/>
-    <input type="text" name="attr_Perception" class="iPetit Vert iNombre iNoBorder" style="top:142px;left:565px; " title="@{Perception}"/>
-    <input type="text" name="attr_Soutien" class="iPetit Vert iNombre iNoBorder" style="top:142px;left:760px; " title="@{Soutien}"/>
-    
-    <!-- Traits de Caractéristiques personnage -->
-    
-    <input type="text" name="attr_TraitCombat1" class="iLine Red" style="top:180px;left:50px;width:160px; " title="@{TraitCombat1}"/>
-    <input type="text" name="attr_TraitCombat2" class="iLine Red" style="top:198px;left:50px;width:160px; " title="@{TraitCombat2}"/>
-    <input type="text" name="attr_TraitCombat3" class="iLine Red" style="top:218px;left:50px;width:160px; " title="@{TraitCombat3}"/>
-    <input type="text" name="attr_TraitCombat4" class="iLine Red" style="top:238px;left:50px;width:160px; " title="@{TraitCombat4}"/>
-    <input type="text" name="attr_TraitCombat5" class="iLine Red" style="top:258px;left:50px;width:160px; " title="@{TraitCombat5}"/>
-    
-    <input type="text" name="attr_TraitInfiltration1" class="iLine Red" style="top:180px;left:240px;width:170px; " title="@{TraitInfiltration1}"/>
-    <input type="text" name="attr_TraitInfiltration2" class="iLine Red" style="top:198px;left:240px;width:170px; " title="@{TraitInfiltration2}"/>
-    <input type="text" name="attr_TraitInfiltration3" class="iLine Red" style="top:218px;left:240px;width:170px; " title="@{TraitInfiltration3}"/>
-    <input type="text" name="attr_TraitInfiltration4" class="iLine Red" style="top:238px;left:240px;width:170px; " title="@{TraitInfiltration4}"/>
-    <input type="text" name="attr_TraitInfiltration5" class="iLine Red" style="top:258px;left:240px;width:170px; " title="@{TraitInfiltration5}"/>
-    
-    <input type="text" name="attr_TraitPerception1" class="iLine Red" style="top:180px;left:440px;width:170px; " title="@{TraitPerception1}"/>
-    <input type="text" name="attr_TraitPerception2" class="iLine Red" style="top:198px;left:440px;width:170px; " title="@{TraitPerception2}"/>
-    <input type="text" name="attr_TraitPerception3" class="iLine Red" style="top:218px;left:440px;width:170px; " title="@{TraitPerception3}"/>
-    <input type="text" name="attr_TraitPerception4" class="iLine Red" style="top:238px;left:440px;width:170px; " title="@{TraitPerception4}"/>
-    <input type="text" name="attr_TraitPerception5" class="iLine Red" style="top:258px;left:440px;width:170px; " title="@{TraitPerception5}"/>
-    
-    <input type="text" name="attr_TraitSoutien1" class="iLine Red" style="top:180px;left:640px;width:170px; " title="@{TraitSoutien1}"/>
-    <input type="text" name="attr_TraitSoutien2" class="iLine Red" style="top:198px;left:640px;width:170px; " title="@{TraitSoutien2}"/>
-    <input type="text" name="attr_TraitSoutien3" class="iLine Red" style="top:218px;left:640px;width:170px; " title="@{TraitSoutien3}"/>
-    <input type="text" name="attr_TraitSoutien4" class="iLine Red" style="top:238px;left:640px;width:170px; " title="@{TraitSoutien4}"/>
-    <input type="text" name="attr_TraitSoutien5" class="iLine Red" style="top:258px;left:640px;width:170px; " title="@{TraitSoutien5}"/>
-    
+    <input type="text" name="attr_Force" class="iPetit Cyan iNombre iNoBorder" style="top:195px;left:120px;width:60px; " title="@{Force}"/>
+    <input type="text" name="attr_Precision" class="iPetit Cyan iNombre  iNoBorder" style="top:195px;left:330px;width:60px; " title="@{Precision}"/>
+    <input type="text" name="attr_Intelligence" class="iPetit Cyan iNombre iNoBorder" style="top:195px;left:570px;width:60px; " title="@{Intelligence}"/>
+    <input type="text" name="attr_Vitalite" class="iPetit Cyan iNombre iNoBorder" style="top:195px;left:770px;width:60px; " title="@{Vitalite}"/>
+    <input type="text" name="attr_Agilite" class="iPetit Cyan iNombre iNoBorder" style="top:195px;left:970px;width:60px; " title="@{Agilite}"/>
+
     <!-- PA et XP personnage -->
     
-    <input type="text" name="attr_PA" class="iNombre iNoBorder Vert" style="top:295px;left:103px;width:60px;font-size:26px; " title="@{PA}"/>
-    <input type="text" name="attr_XP" class="iNombre iNoBorder Vert" style="top:295px;left:570px;width:60px;font-size:26px; " title="@{XP}"/>
-    
+    <input type="text" name="attr_PH" class="iNombre iNoBorder Bleu" style="top:275px;left:110px;width:60px;font-size:26px; " title="@{PH}"/>
+    <input type="text" name="attr_PHTotal" class="iNombre iNoBorder Bleu" style="top:290px;left:225px;width:60px;font-size:20px; " title="@{PHTotal}"/>
+    <input type="text" name="attr_XP" class="iNombre iNoBorder Rouge" style="top:277px;left:475px;width:60px;font-size:26px; " title="@{XP}"/>
+    <input type="text" name="attr_XPTotal" class="iNombre iNoBorder Rouge" style="top:293px;left:593px;width:60px;font-size:20px; " title="@{XPTotal}"/>
     <!-- Arts Ninja du personnage -->
     
-    <input type="text" name="attr_Ninjutsu" class="iNoBorder iNombre Red" style="top:373px;left:48px;width:40px;font-size:34px; " title="@{Ninjutsu}"/>
-    <input type="text" name="attr_Taijutsu" class="iNombre iNoBorder Red" style="top:373px;left:178px; width:30px;font-size:34px;" title="@{Taijutsu}"/>
-    <input type="text" name="attr_Genjutsu" class="iNombre iNoBorder Red" style="top:373px;left:304px;width:30px;font-size:34px; " title="@{Genjutsu}"/>
-    <input type="text" name="attr_Fuinjutsu" class="iNombre iNoBorder Red" style="top:373px;left:431px;width:30px;font-size:34px; " title="@{Fuinjutsu}"/>
-    <input type="text" name="attr_Kuchiyose" class="iNombre iNoBorder Red" style="top:373px;left:561px;width:30px;font-size:34px; " title="@{Kuchiyose}"/>
-    
+    <input type="text" name="attr_Cac" class="iNoBorder iNombre Rouge" style="top:410px;left:185px;width:60px;font-size:34px; " title="@{Cac}"/>
+    <input type="text" name="attr_Distance" class="iNombre iNoBorder Bleu" style="top:410px;left:310px; width:60px;font-size:34px;" title="@{Distance}"/>
+    <input type="text" name="attr_Soutien" class="iNombre iNoBorder Vert" style="top:410px;left:440px;width:60px;font-size:34px; " title="@{Soutien}"/>
+
+    <!-- Gadgets -->
+<div class="gadgets">
+	<table id="table_gadg">
+		<tr>
+			<th class="col GadgetCol1">Description</th>
+			<th class="col GadgetCol2">Effet</th>
+		</tr>
+		<fieldset class="repeating_Gadgets" >
+			<tr>
+				<td class="col GadgetCol1" >
+					<textarea name="attr_NomGadget" title="@{NomGadget}" class="Cyan iLine" style="width:100%;position:relative;text-align:center;font-size:14px;height:70px;"></textarea>
+				</td>
+				<td class="col GadgetCol2" >
+					<textarea name="attr_DescGadget" title="@{DescGadget}" class="Cyan iLine" style="width:100%;position:relative;text-align:center;font-size:14px;height:70px;"></textarea>
+				</td>
+			</tr>
+		</fieldset>
+	</table>
+	<input type="button" value="Ajouter" class="bouton" onclick="addRowG(document.getElementById('table_gadg'));" />
+        <script type="text/javascript">  function addRowG(tableau)
+            {     
+    		var tr = document.createElement('tr');
+		var textarea = document.createElement('textarea');
+		textarea.name = "attr_NomGadget";
+		textarea.title = "@{NomGadget}";
+		textarea.class = "Cyan iLine";
+		textarea.style = "width:100%;position:relative;text-align:center;font-size:14px;height:70px;";
+		var td = document.createElement('td');
+    		td.appendChild(textarea);
+		td.class = "col GadgetCol1";
+		tr.appendChild(td);
+
+		var textarea = document.createElement('textarea');
+		textarea.name = "attr_DescGadget";
+		textarea.title = "@{DescGadget}";
+		textarea.class = "Cyan iLine";
+		textarea.style = "width:100%;position:relative;text-align:center;font-size:14px;height:70px;";
+		var td = document.createElement('td');
+    		td.appendChild(textarea);
+		td.class = "col GadgetCol2";
+		tr.appendChild(td);
+		tableau.appendChild(tr);
+	    }
+	</script>
+</div>
     <!-- Techniques du personnage -->
-    
+
     <div class="technic">
-        <div class="row">
-            <div class="col TechnicCol1">
-                Nom de la Technique
-            </div>
-            <div class="col TechnicCol2">
-                Type
-            </div>
-            <div class="col TechnicCol3">
-                Rang
-            </div>
-            <div class="col TechnicCol4">
-                Maïtrise
-            </div>
-            <div class="col TechnicCol5">
-                TH
-            </div>
-        </div>
-        
-        <fieldset class="repeating_Techniques">
-            <div class="row">
-                <div class="col TechnicCol1">
-                   <!-- <input type="text" name="attr_NomTechnic" title="@{NomTechnic}" class="Vert iLine" style="width:100%;position:relative;text-align:right;font-size:14px;"/>-->
-                   <textarea name="attr_NomTechnic" title="@{NomTechnic}" class="Vert iLine" style="width:100%;position:relative;text-align:right;font-size:14px;height:19px;"></textarea>
-                </div>
-                <div class="col TechnicCol2">
-                    <select name="attr_TypeTechnic" class="Vert iNoBorder" title="@{TypeTechnic}" style="width:50px;">
-                        <option value="NIN" selected>NIN</option>
-                        <option value="TAI">TAI</option>
-                        <option value="GEN">GEN</option>
-                        <option value="FUI">FUI</option>
-                        <option value="KUC">KUC</option>
-                    </select>
-                </div>
-                <div class="col TechnicCol3">
-                    <select name="attr_RangTechnic" class="Vert iNoBorder"  title="@{RangTechnic}" style="width:40px;">
-                        <option value="E" selected>E</option>
-                        <option value="D">D</option>
-                        <option value="C">C</option>
-                        <option value="B">B</option>
-                        <option value="A">A</option>
-                        <option value="S">S</option>
-                    </select>
-                </div>
-                <div class="col TechnicCol4">
-                    <select name="attr_MaiTechnic" class="Vert iNoBorder" title="@{MaiTechnic}" style="width:95px;">
-                        <option value="D" selected>D (-2 Dés)</option>
-                        <option value="C">C (-1 Dé)</option>
-                        <option value="A">A</option>
-                        <option value="M">M (+1 S)</option>
-                        <option value="P">P (+2 S)</option>
-                        <option value="S">S (+3 S)</option>
-                    </select>
-                </div>
-                <div class="col TechnicCol5">
-                    <input type="checkbox" name="attr-THTechnic" title="@{THTechnic}" style="position:relative;"/>
-                </div>
-            </div>
-        </fieldset>
+	<table id="table_tech">
+		<tr>
+			<th class="col TechnicCol1">Nom de la Technique</th>
+			<th class="col TechnicCol2">Type</th>
+			<th class="col TechnicCol3">Portée</th>
+			<th class="col TechnicCol4">Maitrise</th>
+			<th class="col TechnicCol5">Coût</th>
+			<th class="col TechnicCol5">Stats</th>
+		</tr>
+		<fieldset class="repeating_Techniques" >
+			<tr>
+				<td class="col TechnicCol1" >
+					<input name="attr_NomTechnic" title="@{NomTechnic}" class="Cyan iLine" style="width:100%;position:relative;text-align:right;font-size:14px;height:30px;"></input>
+				</td>
+				<td class="col TechnicCol2" >
+					<select name="attr_TypeTechnic" class="Cyan iNoBorder" title="@{TypeTechnic}" style="width:100%;">
+                        			<option value="ATT" selected>ATT</option>
+                        			<option value="DEF">DEF</option>
+                        			<option value="SUP">SUP</option>
+                    			</select>
+				</td>
+				<td class="col TechnicCol3" >
+				<!--
+					<select name="attr_RangTechnic" class="Cyan iNoBorder"  title="@{RangTechnic}" style="width:40px;">
+                        			<option value="E" selected>E</option>
+                        			<option value="D">D</option>
+                        			<option value="C">C</option>
+                        			<option value="B">B</option>
+                        			<option value="A">A</option>
+                        			<option value="S">S</option>
+                    			</select>
+				-->
+				<input name="attr-RangeTechnic" title="@{RangeTechnic}" style="width:100%;position:relative;text-align:right;font-size:16px;height:30px;"/>
+				</td>
+				<td class="col TechnicCol4" >
+					<select name="attr_MaiTechnic" class="Cyan iNoBorder" title="@{MaiTechnic}" style="width:95px;">
+                        			<option value="D" selected>D (-2 Dés)</option>
+                        			<option value="C">C (-1 Dé)</option>
+                        			<option value="A">A</option>
+                        			<option value="M">M (+1 S)</option>
+                        			<option value="P">P (+2 S)</option>
+                        			<option value="S">S (+3 S)</option>
+                   			</select>
+				</td>
+				<td class="col TechnicCol5" >
+					<input name="attr-CostTechnic" title="@{CostTechnic}" style="width:100%;position:relative;text-align:right;font-size:14px;height:30px;"/>
+				</td>
+				<td class="col TechnicCol6" >
+					<input name="attr-StatTechnic" title="@{StatTechnic}" style="width:100%;position:relative;text-align:right;font-size:14px;height:30px;"/>
+				</td>
+			</tr>	
+		</fieldset>
+	</table>
+	<input type="button" value="Ajouter" class="bouton" onclick="addRow(document.getElementById('table_tech'));" />
     </div>
     
-    <!-- Equipements du personnage -->
-    <textarea name="attr_Equipement" class="Vert iNoBorder taFormat2" style=" top: 36px ; left: 820px ; "  title="@{Equipement}"></textarea>
-    
-    <!-- Aspects du personnage -->
-    <textarea name="attr_AspectsReputations" class="Bleu iNoBorder taFormat" style=" top: 188px ; left: 815px ;  "  title="@{AspectsReputations}"></textarea>
-    <textarea name="attr_AspectsPersonnalite" class="Bleu iNoBorder taFormat" style="top: 241px ; left: 815px ;"  title="@{AspectsPersonnalite}"></textarea>
-    <textarea name="attr_AspectsLiens" class="Bleu iNoBorder taFormat" style="top: 297px ; left: 815px ;"  title="@{AspectsLiens}"></textarea>
+        <script type="text/javascript">  function addRow(tableau)
+            {     
+    		var tr = document.createElement('tr');
+		var input = document.createElement('input');
+		input.name = "attr_NomTechnic";
+		input.title = "@{NomTechnic}";
+		input.class = "Cyan iLine";
+		input.style = "width:100%;position:relative;text-align:right;font-size:14px;height:30px;";
+		var td = document.createElement('td');
+    		td.appendChild(input);
+		td.class = "col TechnicCol1";
+		tr.appendChild(td);
 
-    <textarea name="attr_AspectsClan" class="Bleu iNoBorder taFormat" style="top: 188px ; left: 1002px ;"  title="@{AspectsClan}"></textarea>
-    <textarea name="attr_AspectsHeredite" class="Bleu iNoBorder taFormat" style="top: 241px ; left: 1002px ;"  title="@{AspectsHeredite}"></textarea>
-    <textarea name="attr_AspectsAutres" class="Bleu iNoBorder taFormat" style="top: 297px ; left: 1002px ;"  title="@{AspectsAutres}"></textarea>
+		var select = document.createElement("select");
+		select.name = "attr_TypeTechnic";
+		select.class = "Cyan iNoBorder";
+		select.title = "@{TypeTechnic}" ;
+		select.style = "width:100%;" ;
+		var arrayOption = ["ATT","DEF","SUP"];
+		for (var i = 0; i < arrayOption.length; i++) {
+    			var option = document.createElement("option");
+    			option.value = arrayOption[i];
+   			option.text = arrayOption[i];
+    			select.appendChild(option);
+		}
+		var td = document.createElement('td');
+    		td.appendChild(select);
+		td.class = "col TechnicCol2";
+		tr.appendChild(td);
+			
+		var input = document.createElement('input');
+		input.name = "attr-RangeTechnic";
+		input.title ="@{RangeTechnic}";
+		input.class = "Cyan iLine";
+		input.style = "width:100%;position:relative;text-align:right;font-size:14px;height:30px;";
+		var td = document.createElement('td');
+    		td.appendChild(input);
+		td.class = "col TechnicCol3";
+		tr.appendChild(td);
+
+
+		var select = document.createElement("select");
+		select.name = "attr_MaiTechnic";
+		select.class = "Cyan iNoBorder";
+		select.title = "@{MaiTechnic}" ;
+		select.style = "width:95px;" ;
+		var arrayValue = ["D","C","A","M","P", "S"];
+		var arrayOption = ["D (-2 Dés)","C (-1 Dé)","A","M (+1 S)","P (+2 S)", "S (+3 S)"];
+		for (var i = 0; i < arrayOption.length; i++) {
+    			var option = document.createElement("option");
+    			option.value = arrayValue[i];
+   			option.text = arrayOption[i];
+    			select.appendChild(option);
+		}
+		var td = document.createElement('td');
+    		td.appendChild(select);
+		td.class = "col TechnicCol4";
+		tr.appendChild(td);
+
+		var input = document.createElement('input');
+		input.name = "attr-CostTechnic";
+		input.title ="@{CostTechnic}";
+		input.class = "Cyan iLine";
+		input.style = "width:100%;position:relative;text-align:right;font-size:14px;height:30px;";
+		var td = document.createElement('td');
+		td.class = "col TechnicCol5";
+    		td.appendChild(input);
+		
+		tr.appendChild(td);
+
+		var input = document.createElement('input');
+		input.name = "attr-StatTechnic";
+		input.title ="@{StatTechnic}";
+		input.class = "Cyan iLine";
+		input.style = "width:100%;position:relative;text-align:right;font-size:14px;height:30px;";
+		var td = document.createElement('td');
+    		td.appendChild(input);
+		td.class = "col TechnicCol6";
+		tr.appendChild(td);
+
+		tableau.appendChild(tr);
+	    }
+	</script>
+            
+
+    <!-- Relation du personnage -->
+    <textarea name="attr_Amis" class="Cyan iNoBorder taFormat2" style=" top: 36px ; left: 945px ;width:120; "  title="@{Amis}"></textarea>
+    <textarea name="attr_Rivaux" class="Cyan iNoBorder taFormat2" style=" top: 36px ; left: 1070px ;width:120; "  title="@{Rivaux}"></textarea>
+    
 
     <!-- Energie Vitale et Chakra du personnage -->
     
-    <input type="text" name="attr_EnerVita" class="iNoBorder iNombre Cyan" style="top:387px;left:691px;width:60px;font-size:34px; height:38px;" title="@{EnerVita}"/>
-    <input type="text" name="attr_EnerVitaMax" class="iNoBorder iNombre  Cyan" style="top:420px;left:715px; width:40px;font-size:22px; height:24px;" title="@{EnerVitaMax}"/>
-    <input type="text" name="attr_Chakra" class="iNoBorder  iNombre  Cyan" style="top:387px;left:1080px;width:60px;font-size:34px;  height:38px;" title="@{Chakra}"/>
-    <input type="text" name="attr_ChakraMax" class="iNoBorder iNombre  Cyan" style="top:420px;left:1106px;width:40px;font-size:22px;  height:24px;" title="@{ChakraMax}"/>
+    <input type="text" name="attr_Sante" class="iNoBorder iNombre Rouge" style="top:145px;left:1165px;width:60px;font-size:34px; height:38px;" title="@{Sante}"/>
+    <input type="text" name="attr_SanteMax" class="iNoBorder iNombre  Rouge" style="top:190px;left:1165px; width:60px;font-size:22px; height:24px;" title="@{SanteMax}"/>
+    <input type="text" name="attr_Energie" class="iNoBorder  iNombre  Bleu" style="top:240px;left:1165px;width:60px;font-size:34px;  height:38px;" title="@{Energie}"/>
+    <input type="text" name="attr_EnergieMax" class="iNoBorder iNombre  Bleu" style="top:285px;left:1165px;width:60px;font-size:22px;  height:24px;" title="@{EnergieMax}"/>
     
     <!-- Eléments du personnage -->
     
-    <input type="text" name="attr_Saifoton" class="iNoBorder iNombre  Cyan" style="top:440px;left:892px; width:40px;font-size:22px; height:24px;" title="@{Saifoton}"/>
-    <input type="text" name="attr_Enton" class="iNoBorder iNombre  Cyan" style="top:514px;left:892px; width:40px;font-size:22px; height:24px;" title="@{Enton}"/>
-    <input type="text" name="attr_Yoton" class="iNoBorder iNombre  Cyan" style="top:564px;left:712px; width:40px;font-size:22px; height:24px;" title="@{Yoton}"/>
-    <input type="text" name="attr_Katon" class="iNoBorder iNombre  Cyan" style="top:571px;left:892px; width:40px;font-size:22px; height:24px;" title="@{Katon}"/>
-    <input type="text" name="attr_Jiton" class="iNoBorder iNombre  Cyan" style="top:640px;left:892px; width:40px;font-size:22px; height:24px;" title="@{Jiton}"/>
-    <input type="text" name="attr_Bakuton" class="iNoBorder iNombre  Cyan" style="top:788px;left:892px; width:40px;font-size:22px; height:24px;" title="@{Bakuton}"/>
-    <input type="text" name="attr_Futton" class="iNoBorder iNombre  Cyan" style="top:517px;left:806px; width:40px;font-size:22px; height:24px;" title="@{Futton}"/>
-    <input type="text" name="attr_Chakuton" class="iNoBorder iNombre  Cyan" style="top:514px;left:985px; width:40px;font-size:22px; height:24px;" title="@{Chakuton}"/>
-    <input type="text" name="attr_Hiton" class="iNoBorder iNombre  Cyan" style="top:564px;left:1077px; width:40px;font-size:22px; height:24px;" title="@{Hiton}"/>
-    <input type="text" name="attr_Kutton" class="iNoBorder iNombre  Cyan" style="top:600px;left:1007px; width:40px;font-size:22px; height:24px;" title="@{Kutton}"/>
-    <input type="text" name="attr_Awaton" class="iNoBorder iNombre  Cyan" style="top:600px;left:779px; width:40px;font-size:22px; height:24px;" title="@{Awaton}"/>
-    <input type="text" name="attr_Suiton" class="iNoBorder iNombre  Cyan" style="top:622px;left:832px; width:40px;font-size:22px; height:24px;" title="@{Suiton}"/>
-    <input type="text" name="attr_Futon" class="iNoBorder iNombre  Cyan" style="top:622px;left:955px; width:40px;font-size:22px; height:24px;" title="@{Futon}"/>
-    <input type="text" name="attr_Nendoton" class="iNoBorder iNombre  Cyan" style="top:686px;left:742px; width:40px;font-size:22px; height:24px;" title="@{Nendoton}"/>
-    <input type="text" name="attr_Hayaiton" class="iNoBorder iNombre  Cyan" style="top:686px;left:1040px; width:40px;font-size:22px; height:24px;" title="@{Hayaiton}"/>
-    <input type="text" name="attr_Doton" class="iNoBorder iNombre  Cyan" style="top:696px;left:854px; width:40px;font-size:22px; height:24px;" title="@{Doton}"/>
-    <input type="text" name="attr_Raiton" class="iNoBorder iNombre  Cyan" style="top:696px;left:937px; width:40px;font-size:22px; height:24px;" title="@{Raiton}"/>
-    <input type="text" name="attr_Shoton" class="iNoBorder iNombre  Cyan" style="top:743px;left:813px; width:40px;font-size:22px; height:24px;" title="@{Shoton}"/>
-    <input type="text" name="attr_Denton" class="iNoBorder iNombre  Cyan" style="top:743px;left:973px; width:40px;font-size:22px; height:24px;" title="@{Denton}"/>
-    
-    <input type="text" name="attr_Sunaton" class="iNoBorder iNombre  Cyan" style="top:798px;left:1014px; width:40px;font-size:22px; height:24px;" title="@{Sunaton}"/>
-    <input type="text" name="attr_Ranton" class="iNoBorder iNombre  Cyan" style="top:798px;left:762px; width:40px;font-size:22px; height:24px;" title="@{Ranton}"/>
-    
-    <input type="text" name="attr_Kekkei1" class="iNoBorder iNombre  Cyan" style="top:767px;left:670px; width:40px;font-size:22px; height:24px;" title="@{Kekkei1}"/>
-    <input type="text" name="attr_Kekkei2" class="iNoBorder iNombre  Cyan" style="top:767px;left:1110px; width:40px;font-size:22px; height:24px;" title="@{Kekkei2}"/>
-    
-    <input type="text" name="attr_KekkeiNom1" class="iNoBorder Cyan Centrer" style="top: 748px ; left:647px ; width: 80px ; font-size: 12px ; height: 24px;" title="@{KekkeiNom1}"/>
-    <input type="text" name="attr_KekkeiNom2" class="iNoBorder Cyan Centrer" style="top: 748px ; left:1089px ; width: 80px ; font-size: 12px ; height: 24px; " title="@{KekkeiNom2}"/>
-    
-    <input type="text" name="attr_KekkeiElem11" class="iNoBorder Cyan " style="top: 798px ; left:635px ; width: 70px ; font-size: 12px ; height: 24px;" title="@{KekkeiElem11}"/>
-    <input type="text" name="attr_KekkeiElem12" class="iNoBorder Cyan " style="top: 766px  ; left:712px px ; width: 70px ; font-size: 12px ; height: 24px; " title="@{KekkeiElem12}"/>
-    <input type="text" name="attr_KekkeiElem21" class="iNoBorder Cyan " style="top: 798px ; left:1155px ; width: 70px ; font-size: 12px ; height: 24px;" title="@{KekkeiElem21}"/>
-    <input type="text" name="attr_Kekkeielem22" class="iNoBorder Cyan Droite" style="top: 766px  ; left:1040px ; width: 70px ; font-size: 12px ; height: 24px; " title="@{Kekkeielem22}"/>
+    <input type="text" name="attr_Charisme" class="iNoBorder iNombre  Cyan" style="top:405px;left:1030px; width:40px;font-size:22px; height:24px;" title="@{Charisme}"/>
+    <input type="text" name="attr_Perception" class="iNoBorder iNombre  Cyan" style="top:466px;left:1030px; width:40px;font-size:22px; height:24px;" title="@{Perception}"/>
+    <input type="text" name="attr_Recherche" class="iNoBorder iNombre  Cyan" style="top:530px;left:1030px; width:40px;font-size:22px; height:24px;" title="@{Recherche}"/>
+    <input type="text" name="attr_Connaissances" class="iNoBorder iNombre  Cyan" style="top:590px;left:1030px; width:40px;font-size:22px; height:24px;" title="@{Connaissances}"/>
+    <input type="text" name="attr_Acrobatie" class="iNoBorder iNombre  Cyan" style="top:650px;left:1030px; width:40px;font-size:22px; height:24px;" title="@{Acrobatie}"/>
+    <input type="text" name="attr_Discretion" class="iNoBorder iNombre  Cyan" style="top:405px;left:1225px; width:40px;font-size:22px; height:24px;" title="@{Discretion}"/>
+    <input type="text" name="attr_Athletisme" class="iNoBorder iNombre  Cyan" style="top:466px;left:1225px; width:40px;font-size:22px; height:24px;" title="@{Athletisme}"/>
+    <input type="text" name="attr_Investigation" class="iNoBorder iNombre  Cyan" style="top:530px;left:1225px; width:40px;font-size:22px; height:24px;" title="@{Investigation}"/>
+    <input type="text" name="attr_Intimidation" class="iNoBorder iNombre  Cyan" style="top:590px;left:1225px; width:40px;font-size:22px; height:24px;" title="@{Intimidation}"/>
+    <input type="text" name="attr_Sauvetage" class="iNoBorder iNombre  Cyan" style="top:650px;left:1225px; width:40px;font-size:22px; height:24px;" title="@{Sauvetage}"/>
+
     
 </div>
 

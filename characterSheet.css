@@ -25,8 +25,8 @@
    position:absolute;
    background-image:url("https://raw.githubusercontent.com/SOS-ouistiti/MHA_sheet/master/Fiche-Perso-Hero.png");;
    background-repeat: no-repeat;
-   width:1205px;
-   height:850px;
+   width:1280px;
+   height:720px;
    background-color:white;
    border:1px solid black;
    
@@ -61,60 +61,63 @@ textarea{
     font-weight:bold;
 }
 
-.sheet-iPetit{
+.iPetit{
     width:30px;
     
 }
 
-.sheet-iLine{
+.iLine{
     border-top:0px solid black;
     border-left:0px solid black;
     border-right:0px solid black;
     background-color:transparent;
+    font-weight:bold;
+    font-size:20px;
 }
 
-.sheet-iNoBorder{
+.iNoBorder{
     border:0px solid black;
     background-color:transparent;
 }
 
-.sheet-iNombre{
+.iNombre{
     font-family:arial;
     font-size:24px;
     font-weight:bold;
     text-align:center;
 }
 
-.sheet-Cyan{
-    color:#568694;
+.Cyan{
+    color:#654FE3;
 }
 
-.sheet-Red{
-    color:#a45966;
+.Rouge{
+    color:#D83B19;
 }
 
-.sheet-Vert{
-    color:#5c806e;
+.Vert{
+    color:#19D821;
 }
 
-.sheet-Bleu{
-    color:#6c74ab;
+.Bleu{
+    color:#194CD8;
 }
 
-.sheet-taFormat2{
+.taFormat2{
     overflow-x:hidden;
     overflow-y:scroll;
     repeat:no-repeat;
     width:400px;
 }
 
-.sheet-technic{
+.technic{
     position:absolute;
     /*border:1px solid black;*/
-    width:620px;
-    height:355px;
-    max-height:355px;
-    top:475px;
+    width:570px;
+    max-width:570px;
+    height:150px;
+    max-height:150px;
+    top:530px;
     left:15px;
     overflow-x:hidden;
     overflow-y:scroll;
@@ -123,49 +126,85 @@ textarea{
     font-weight:bold;
     
 }
-.sheet-row:nth-child(odd){
+.row:nth-child(odd){
     background-color:rgba(249,180,150,0.5);
 }
-.repitem:nth-child(even){
+.row:nth-child(even){
     background-color:rgba(249,180,150,0.5);
 }
-.sheet-TechnicCol1{
+.TechnicCol1{
     border-right:1px solid black;
     border-bottom:1px solid black;
     text-align:right;
-    
-    width:339px;
+    width:230px;
 }
-.sheet-TechnicCol2{
+.TechnicCol2{
     border-right:1px solid black;
     border-bottom:1px solid black;
     text-align:center;
     padding:0;
-    width:55px;
+    width:65px;
 }
-.sheet-TechnicCol3{
+.TechnicCol3{
     border-right:1px solid black;
     border-bottom:1px solid black;
     text-align:center;
     padding:0;
     width:45px;
 }
-.sheet-TechnicCol4{
+.TechnicCol4{
     border-right:1px solid black;
     border-bottom:1px solid black;
     text-align:center;
     padding:0;
     width:100px;
 }
-.sheet-TechnicCol5{
+.TechnicCol5{
     border-right:1px solid black;
     border-bottom:1px solid black;
     text-align:center;
     padding:0;
     width:40px;
 }
+.TechnicCol6{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:60px;
+}
 
-.sheet-taFormat{
+.gadgets{
+    position:absolute;
+   background:white;
+    /*border:1px solid black;*/
+    width:270px;
+    max-width:270px;
+    height:310px;
+    max-height:310px;
+    top:400px;
+    left:590px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+     font-family:bushido;
+    font-size:16px;
+    font-weight:bold;
+    
+}
+.GadgetCol1{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    width:145px;
+}
+.GadgetCol2{
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:0;
+    width:125px;
+}
+.taFormat{
     height: 40px; 
     font-size: 14px; 
     resize:none; 
@@ -173,7 +212,7 @@ textarea{
     position: absolute;
     width: 185px;
 }
-.sheet-taFormat2{
+.taFormat2{
     height: 100px; 
     font-size: 14px; 
     resize:none; 
@@ -182,9 +221,9 @@ textarea{
     overflow-y:scroll;
 }
 
-.sheet-Centrer{
+.Centrer{
     text-align:center;
 }
-.sheet-Droite{
+.Droite{
     text-align:right;
 }
