@@ -178,12 +178,12 @@ textarea{
     position:absolute;
    background:white;
     /*border:1px solid black;*/
-    width:270px;
-    max-width:270px;
+    width:230px;
+    max-width:230px;
     height:310px;
     max-height:310px;
-    top:400px;
-    left:590px;
+    top:300px;
+    left:620px;
     overflow-x:hidden;
     overflow-y:scroll;
      font-family:bushido;
